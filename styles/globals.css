@@ -1,0 +1,41 @@
+
+/* Light Theme */
+:root {
+    --background-color: white;
+    --text-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+main {
+    margin: 25px;
+}
+
+
+h1 {
+    margin-bottom: 15px;
+    color: #999999;
+    text-shadow: 2px 2px 3px #666666;
+    text-transform: uppercase;
+}
+
+
+p {
+    line-height: 1.7em;
+    color: #999999;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.7em;
+}

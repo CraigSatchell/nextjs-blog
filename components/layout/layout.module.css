@@ -1,0 +1,36 @@
+
+.ul span, .ul span a, .ul span a:hover, .ul span a:visited, .ul span a:focus {
+    font-weight: bold;
+    color: #a1719d;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.ul {
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+
+.li {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.li a:link, .li a:visited, .li a:focus {
+    display: inline;
+    text-align: center;
+    color: #dfb0dc;
+     text-decoration: none;
+    padding: 5px 20px;
+    margin-right: 10px;
+    font-weight: bold;
+ 
+}
+
+.li a:hover {
+    color: #ffffff;
+}
+
+.footer {
+    margin-left: 25px;
+}
